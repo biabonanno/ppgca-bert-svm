@@ -68,7 +68,7 @@ Para rodar ambos os modelos
 python ironia_mvp.py --data tweets.csv --do_svm --do_bert
 ````
 
-##Parâmetros Opcionais
+## Parâmetros Opcionais
 
 --no_group_user	- Ignora agrupamento por autor mesmo se houver author_id
 --group_time	- Faz split temporal se houver timestamp
@@ -78,7 +78,7 @@ python ironia_mvp.py --data tweets.csv --do_svm --do_bert
 --batch	- Tamanho do batch
 
 
-##📊 Saídas e Métricas
+## 📊 Saídas e Métricas
 
 Ao final da execução são exibidos:
 📈 F1-macro por classe
